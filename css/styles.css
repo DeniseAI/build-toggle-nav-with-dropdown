@@ -87,6 +87,7 @@ nav {
 
 .menu a:hover {
     background-color: #e2e8f0;
+    color: #818cf8;
 }
 
 .menu svg {
@@ -146,13 +147,20 @@ nav {
     .submenu {
         position: absolute;
     }
-
+    
     .submenu li {
         overflow: visible;
         background-color: #f9fafc;
     }
-}
+    
+    .submenu li a {
+        min-width: 8rem;
+    }
 
+    .submenu li a:hover {
+        color: #818cf8
+    }
+}
 /* layout the 3 top level links horizontally. */
 /* layout submenu links (dropdown for wider screen) */
 /* add keyboard focus to dropdown links */
